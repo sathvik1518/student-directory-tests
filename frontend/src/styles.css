@@ -1,0 +1,23 @@
+:root { color-scheme: light; }
+body { font-family: system-ui, "Segoe UI", Arial, sans-serif; margin: 0; background: #ffffff; color: #1a1a1a; }
+.page { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 16px; }
+h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+.filters { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+.field { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
+label { font-weight: 600; }
+input, select, button { font: inherit; padding: 8px 10px; border: 1px solid #5b6472; border-radius: 6px; background: #fff; color: #1a1a1a; }
+button { background: #1d4ed8; color: #fff; border-color: #1d4ed8; cursor: pointer; }
+button:disabled { background: #4b5563; border-color: #4b5563; cursor: progress; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+caption { text-align: left; font-weight: 600; padding-bottom: 6px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #d1d5db; }
+tbody th { font-weight: 500; }
+td button { background: #fff; color: #991b1b; border-color: #991b1b; padding: 4px 10px; }
+.summary, .notice { margin: 4px 0; color: #374151; }
+.notice { color: #065f46; }
+.empty { padding: 16px 0; color: #374151; }
+.problem { border: 2px solid #991b1b; border-radius: 6px; padding: 8px 12px; margin: 12px 0; color: #7f1d1d; }
+.field-error { color: #991b1b; margin: 0; font-weight: 600; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
